@@ -1,0 +1,23 @@
+mkdir nombredelacarpeta
+pwd -print working station
+cd -Change directory
+source - Read and execute contents of a file
+esto es una prueba
+algunos deciden instalarlo en la direccion /home/env
+# Create virtual environment
+python3 -m venv my_env
+
+# Activate virtual environment 
+source my_env/bin/activate  
+
+# Install packages 
+pip install pandas 
+
+# List installed packages
+pip list
+
+# Generate requirements file
+pip freeze > requirements.txt  
+
+# Deactivate environment
+deactivate
